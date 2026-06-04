@@ -30,7 +30,7 @@ mi_lista[0] = 'kiwi'
 mi_lista.sort()
 
 # Ejercicio 9: Usa la reasignación para añadir un elemento a tu tupla.
-mi_tupla = mi_tupla + ('amarillo',)
+mi_tupla += ('amarillo',)
 
 # --- Comprobación de Resultados en Pantalla ---
 print(f"Ej 1 (Decimal): {mi_decimal}")
